@@ -35,7 +35,6 @@ public class TestEmployeeCRUD {
 
                         case 2:
                             System.out.println("Enter name, address, salary, dept id, join date: ");
-//                            String name, String address, double salary, String deptId, Date joinDate
                             System.out.println(employeeDAO.addEmployee(
                                     new Employee(scanner.next(),scanner.next(),scanner.nextDouble(),scanner.next(),Date.valueOf(scanner.next()))));
 

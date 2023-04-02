@@ -91,9 +91,6 @@ public class Employee {
         this.joinDate = joinDate;
     }
 
-//    empid, name, salary, join_date
-
-
     @Override
     public String toString() {
         return "Employee{" +
